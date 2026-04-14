@@ -1,1 +1,9 @@
-/* Пиши стили тут */
+.stars-container {
+  display: flex;
+  gap: 5px;
+}
+.star {
+  cursor: pointer;
+  width: 100px; 
+  height: 100px;
+}
