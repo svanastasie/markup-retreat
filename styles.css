@@ -1,9 +1,17 @@
 .stars-container {
   display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
   gap: 5px;
 }
+
 .star {
-  cursor: pointer;
-  width: 100px; 
+  width: 100px;
   height: 100px;
+  cursor: pointer;
+}
+
+.star:hover,
+.star:hover ~ .star {
+  content: url("img/star.png");
 }
